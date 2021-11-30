@@ -1,3 +1,28 @@
 body {
-
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  font-family: verdana;
+  font-size: 350%;
 }
+
+li,ul {
+  color: black;
+  text-align: left;
+  font-family: verdana;
+  font-size: 60%;
+  list-style-type: circle;
+}
+
+table;tr;td;th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  pading: 10px; 
+}
+
+table {
+  width:65%
+}
+
+tr:hover {
+  background-color: yellow
