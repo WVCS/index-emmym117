@@ -1,22 +1,31 @@
-<html>
-  
-  <body>
-    <ul id="Nav">
-      <li><a href="nameofmy"> HOME </a></li>
-      <li><a href="nameofmy"> ABOUT </a></li>
-      <li><a href="nameofmy"> NOUN </a></li>
-      <li><a href="https://www.powayusd.com/en-US/Schools/HS/WVHS/HOME"> WESTVIEW </a></li> 
-    </ul>
-   <br>
-   <br>
-   <br>
-   
-      
-    <h1> Topic of my Site </h1>
-    <center>
-      <img src= https://images.viacbs.tech/uri/mgid:arc:content:nick.com:a625d441-bbbf-42c8-9927-6a0157aac911?quality width=200
-    </center>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </body>
-  
-</html>
+body {
+  background-color: dodgerblue;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden; 
+  position: fixed;
+  background-color: gold;
+  top: 0;
+  margin: 0;
+  left: 0;  
+}
+
+li a {
+  display: block;
+  float: left;
+  padding: 10px 25px;
+  color: white;
+  tex-align: center;
+}
+
+li a: hover {
+  background-color: yellow;
+  color: black;
+}
+
+p {
+  color: white;
+}
