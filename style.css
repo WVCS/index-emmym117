@@ -7,6 +7,10 @@ h1{
   color: red;
 }
 
+img{
+  text-align:center;
+}
+
 ul {
   list-style-type: none;
   text-align: center;
