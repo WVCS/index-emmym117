@@ -42,6 +42,10 @@ li a {
   color: white;
 }
 
+li a:hover {
+  background-color: #111;
+  color: green;
+  font-size: 30px;
 }
 
 p {
