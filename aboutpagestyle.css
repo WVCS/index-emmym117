@@ -32,3 +32,11 @@ li a:hover {
   background-color: #111;
   color: green;
 }
+
+p {
+  color: white;
+}
+
+img {
+  text-align: center;
+}
