@@ -6,16 +6,29 @@ img {
   text-align: center;
 }
 
-
 nav {
   list-style-type: none;
-  background-color: #333;
+  background-color: dodgerblue;
   width: 100%;
   left: 0;
   top: 0;
   margin: 0;
   overflow: hidden;
-  position: fixed;
+  postion: fixed;
 }
-  
 
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #E4E0D4;
+  text-decorations: none;
+  padding: 20px;  
+}
+
+li a:hover {
+  background-color: #111;
+  color: green;
+}
