@@ -35,6 +35,8 @@ li a:hover {
 
 p {
   color: white;
+  text-align: center;
+  font-size: 40px;
 }
 
 img {
