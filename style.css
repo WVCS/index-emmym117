@@ -13,27 +13,32 @@ img{
 
 nav {
   list-style-type: none;
-  width: 100%;
-  overflow: hidden;
-  Position: fixed; 
   background-color: #2F97C1;
-  margin: 0;
-  top: 0;
+  width: 100%;
   left: 0;
+  top: 0;
+  margin: 0;
+  overflow: hidden;
+  postion: fixed;
+}
+
+li{
+  float: left;
 }
 
 li a {
   display: block;
-  float: left;
-  padding: 15px;
   color: #E4E0D4;
+  text-decorations: none;
+  padding: 15px;
+  
 }
 
 li a:hover {
   background-color: #111;
   color: green;
-  font-size: 20px;
 }
+
 
 p {
   color: white;
