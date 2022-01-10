@@ -29,6 +29,12 @@ li a:hover {
   color: green;
 }
 
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px
+}
+
 p {
   color: white;
   text-align: center;
